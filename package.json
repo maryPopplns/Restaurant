@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/maryPopplns/Restaurant/issues"
   },
-  "homepage": "https://github.com/maryPopplns/Restaurant#readme"
+  "homepage": "https://github.com/maryPopplns/Restaurant#readme",
+  "dependencies": {
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  }
 }
