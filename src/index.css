@@ -1,0 +1,5 @@
+@import "./reset.css";
+@import "./components/nav/nav.css";
+@import "./components/home/home.css";
+@import "./components/menu/menu.css";
+@import "./components/catering/catering.css";

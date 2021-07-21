@@ -1,0 +1,17 @@
+#navbar {
+  height: 5em;
+  width: 30em;
+  margin: auto;
+  border: 1px solid black;
+}
+
+#nav_ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav_menu {
+  width: 10em;
+  height: 5em;
+  border: 1px solid black;
+}
