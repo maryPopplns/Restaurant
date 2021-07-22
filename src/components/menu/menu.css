@@ -1,0 +1,51 @@
+#menu_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 40em;
+}
+
+#menu_header {
+  margin-top: 3em;
+}
+
+#menu_page_hr {
+  margin: 1em 0;
+  background-color: black;
+  border: none;
+  width: 4em;
+  height: 0.15em;
+  margin-bottom: 5em;
+}
+
+#menu_page_specials {
+  margin: 2em 0;
+}
+
+#menu_items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3em;
+  height: 30em;
+  width: 40em;
+}
+
+.num_price_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em;
+}
+
+.special_item {
+  font-weight: 700;
+}
+
+.description_container {
+  height: 10em;
+  width: 19em;
+  margin: 0.5em auto;
+  line-height: 1.25em;
+}
