@@ -1,7 +1,9 @@
 #navbar {
+  display: flex;
+  justify-content: space-around;
   height: 5em;
   width: 30em;
-  margin: auto;
+  margin: 1em auto;
 }
 
 #nav_ul {
@@ -13,8 +15,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10em;
-  height: 5em;
 }
 
 .nav_button {
