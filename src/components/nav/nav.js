@@ -24,6 +24,26 @@ const NAV = () => {
     UL.append(LI);
     LI.append(BUTTON);
   }
+
+  const NAV_HANDLER = (e) => {
+    document.querySelector("main").remove();
+
+    if (e.target.id.includes("home")) {
+      HOME();
+    }
+    if (e.target.id.includes("menu")) {
+      MENU();
+    }
+    if (e.target.id.includes("catering")) {
+      CATERING();
+    }
+  };
+
+  for (let i = 0; i < 3; i++) {
+    document
+      .getElementById(LIST_ITEMS[i])
+      .addEventListener("click", NAV_HANDLER);
+  }
 };
 
 export { NAV };
