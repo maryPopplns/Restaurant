@@ -1,3 +1,7 @@
+import { HOME } from "../home/home.js";
+import { MENU } from "../menu/menu.js";
+import { CATERING } from "../catering/catering.js";
+
 const NAV = () => {
   const NAVBAR = document.createElement("nav");
   const UL = document.createElement("ul");
