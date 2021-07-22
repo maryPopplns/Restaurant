@@ -6,5 +6,5 @@ import { CATERING } from "./components/catering/catering.js";
 
 NAV();
 // HOME();
-MENU();
-// CATERING();
+// MENU();
+CATERING();

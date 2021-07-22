@@ -1,0 +1,41 @@
+#catering_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 50em;
+  width: 40em;
+}
+
+#contact_text {
+  margin-top: 5em;
+}
+
+#catering_page_hr {
+  margin: 1em 0;
+  background-color: black;
+  border: none;
+  width: 4em;
+  height: 0.15em;
+}
+
+#details {
+  margin-top: 1em;
+  text-align: center;
+  line-height: 1.1;
+}
+
+#catering_form {
+  margin-top: 3em;
+}
+
+.input_container {
+  display: flex;
+  justify-content: space-between;
+  width: 35em;
+  margin: 0.5em 0;
+}
+
+.catering_input {
+  width: 40em;
+}
